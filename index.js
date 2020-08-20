@@ -8,7 +8,7 @@ app.use(bodyParser.json());
  
 //load route
 app.use('/api/products', prodRouter)
-app.use('/kontak', kontakRouter)
+app.use('/api/kontak', kontakRouter)
  
 //Server listening
 app.listen(3000,() =>{
